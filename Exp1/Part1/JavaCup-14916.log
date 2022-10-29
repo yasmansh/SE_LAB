@@ -1,0 +1,139 @@
+22.9-170 0.007: Log file: C:\Users\ASuS\.yjp\log\JavaCup-14916.log
+22.9-170 0.009: Command line:
+  C:\Program Files\Java\jdk-11.0.2\bin\java.exe
+  -agentpath:C:\ProgramData\YourKit\2022.9.170\windows-x86-64\B99A482A\yjpagent.dll=sampling,_ide_project_name=ProfilingTest,app_name=JavaCup,profiler_dir=YJPQUOTED433a5c50726f6772616d2046696c65735c596f75724b6974204a6176612050726f66696c657220323032322e392d62313730,ideport=4548,onexit=snapshot
+  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=4783:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\bin
+  -Dfile.encoding=UTF-8
+  -classpath
+  C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\aether-api-1.1.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\aether-connector-basic-1.1.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\aether-dependency-resolver.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\aether-impl-1.1.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\aether-spi-1.1.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\aether-transport-file-1.1.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\aether-transport-http-1.1.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\aether-util-1.1.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\annotations.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\asm-5.0.3.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\asm-all-7.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\asm-analysis-5.0.3.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\asm-tree-5.0.3.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\async-profiler-1.5-ea.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\automaton-1.12-1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\baksmali-2.2.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\batik-all-1.10.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\bcprov-jdk15on-1.60.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\bootstrap.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\cglib-nodep-3.2.4.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\cli-parser-1.1.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\cloud-config-client.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\common-image-3.3.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\common-io-3.3.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\common-lang-3.3.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-codec-1.10.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-collections-3.2.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-compress-1.17.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-httpclient-3.1-patched.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-imaging-1.0-RC-1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-io-2.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-lang-2.4.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-lang3-3.4.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-logging-1.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\commons-net-3.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\constraint-layout.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\cucumber-java-1.2.5.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\delight-rhino-sandbox-0.0.9.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\dexlib2-2.2.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\ecj-4.7.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\eddsa-0.2.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\error_prone_annotations-2.3.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\extensions.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\external-system-impl.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\external-system-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\fluent-hc-4.5.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\forms-1.1-preview.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\forms_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\fst-2.57.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\groovy-all-2.4.15.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\gson-2.8.5.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\guava-25.1-jre.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\hamcrest-core-1.3.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\httpclient-4.5.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\httpcore-4.4.10.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\httpmime-4.5.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\icons.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\ide-model-0.183.43.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea-jsp-openapi.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\ideax.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\imageio-core-3.3.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\imageio-metadata-3.3.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\imageio-tiff-3.3.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\imgscalr-lib-4.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\ini4j-0.5.5-2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\intellij-coverage-agent-1.0.495.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\intellij-test-discovery-agent-1.0.495.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\isorelax-20030108.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jackson-annotations-2.9.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jackson-core-2.9.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jackson-databind-2.9.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jasper21_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jasper2_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\java-api.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\java-compatibility-1.0.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\java-impl.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\javac2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\javahelp-2.0.02.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\javassist-3.22.0-GA.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\javax.inject-1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\java_resources_en.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jaxen-1.1.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jbcrypt-1.0.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jcip-annotations-1.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jdkAnnotations.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jdom.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jediterm-pty-2.14.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jetCheck-0.2.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jettison-1.4.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jfr-reader-0.1.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jgoodies-common-1.4.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jing-20030619.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jna-platform.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jna.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jps-builders-6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jps-builders.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jps-launcher.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jps-model.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsch-0.1.54.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsch.agentproxy.connector-factory.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsch.agentproxy.core.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsch.agentproxy.jsch.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsch.agentproxy.pageant.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsch.agentproxy.sshagent.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsch.agentproxy.usocket-jna.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsch.agentproxy.usocket-nc.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jshell-frontend.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jshell-protocol.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jsp-api.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\junit-4.12.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\jzlib-1.1.3.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\kotlin-reflect.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\kotlin-stdlib-jdk7.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\kotlin-stdlib-jdk8.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\kotlin-stdlib.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\kotlin-test.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\kotlinx-coroutines-core-0.26.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\kotlinx-coroutines-jdk8-0.26.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\kxml2-2.3.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\libthrift-0.11.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\log4j.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\lz4-1.3.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\markdown4j-2.2-cj-1.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\markdownj-core-0.4.2-SNAPSHOT.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\maven-aether-provider-3.3.9.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\maven-artifact-3.3.9.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\maven-builder-support-3.3.9.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\maven-model-3.3.9.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\maven-model-builder-3.3.9.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\maven-repository-metadata-3.3.9.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\microba.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\miglayout-core-5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\miglayout-swing-5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\mutability-annotations-compat.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\nanoxml-2.2.3.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\nekohtml-1.9.22.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\netty-buffer-4.1.30.Final.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\netty-codec-4.1.30.Final.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\netty-codec-http-4.1.30.Final.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\netty-common-4.1.30.Final.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\netty-handler-4.1.30.Final.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\netty-resolver-4.1.30.Final.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\netty-transport-4.1.30.Final.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\objenesis-2.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\openapi.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\optimizedFileManager.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\org.eclipse.lsp4j-0.3.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\org.eclipse.lsp4j.jsonrpc-0.3.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\oro-2.0.8.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\picocontainer-1.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\platform-api.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\platform-impl.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\plexus-component-annotations-1.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\plexus-interpolation-1.21.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\plexus-utils-3.0.22.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\protobuf-java-3.4.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\proxy-vole-1.0.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\pty4j-0.8.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\purejavacomm-0.0.11.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\rd-core-0.183.68.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\rd-framework-0.183.68.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\rd-text-0.183.68.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\rdserver.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\resources_en.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\rhino-1.7.10.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\rngom-20051226-patched.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\sa-jdwp-1.12.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\serviceMessages.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\servlet-api.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\slf4j-api-1.7.25.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\slf4j-log4j12-1.7.25.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\snakeyaml-1.22.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\sqlite-jdbc-3.21.0.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\stax-api-1.0.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\streamex-0.6.7.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\swingx-core-1.6.2-2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\trang-core.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\trilead-ssh2-build-217-jenkins-11.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\trove4j.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\util-2.2.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\util.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\velocity-1.7.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\wadl-core.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\winp-1.27.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xercesImpl-2.12.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xml-apis-ext-1.3.04.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xml-resolver-1.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xmlbeans-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xmlgraphics-commons-2.3.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xmlpull-1.1.3.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xmlrpc-2.0.1.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xpp3_min-1.1.4c.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xstream-1.4.10.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\xz-1.8.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\lib\yjp-controller-api-redist.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaEE\lib\gradle-javaee.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaEE\lib\IntelliLang-javaee.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaEE\lib\javaee-jps-plugin.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaEE\lib\javaee-openapi.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaEE\lib\resources_en.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaEE\lib\webDeployment-transport.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\PersistenceSupport\lib\persistence-openapi.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\DatabaseTools\lib\database-openapi.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\DatabaseTools\lib\dekaf-single-2.0.0.387.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\DatabaseTools\lib\resources_en.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\DatabaseTools\lib\unidecode-0.0.7.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\CSS\lib\css-openapi.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\CSS\lib\resources_en.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\uml\lib\diagram-api.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\Spring\lib\spring-aop.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\Spring\lib\spring-eclipse.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\Spring\lib\spring-graph.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\Spring\lib\spring-web.jar;D:\term9\SE_LAB\1\ProfilingTest\out\production\ProfilingTest
+  JavaCup
+22.9-170 0.010: Executable: C:\Program Files\Java\jdk-11.0.2\bin\java.exe
+22.9-170 0.010: Windows 10; version 10.0.17763; windows-x86-64; 64-bit process
+22.9-170 0.011: hid: 160225291YXW9Y9W7XVXY1X44ZX70U859V 64-bit machine
+22.9-170 0.011: RAM: 7106 MB
+22.9-170 0.012: Today is 20221029
+22.9-170 0.012: full_build_stamp: 2022.9.170 202210271816
+22.9-170 0.012: Agent library path: C:\ProgramData\YourKit\2022.9.170\windows-x86-64\B99A482A\yjpagent.dll
+22.9-170 0.012: getTimeNsInfo: "PerformanceFrequency=10000000"
+22.9-170 0.012: Agent_OnLoad: orig_options=sampling,_ide_project_name=ProfilingTest,app_name=JavaCup,profiler_dir=YJPQUOTED433a5c50726f6772616d2046696c65735c596f75724b6974204a6176612050726f66696c657220323032322e392d62313730,ideport=4548,onexit=snapshot
+  full_options=sampling,_ide_project_name=ProfilingTest,app_name=JavaCup,profiler_dir=YJPQUOTED433a5c50726f6772616d2046696c65735c596f75724b6974204a6176612050726f66696c657220323032322e392d62313730,ideport=4548,onexit=snapshot
+22.9-170 0.012: y_setenv: _YJP_AGENT_LOADED=14916
+22.9-170 0.012: jvmtiVersion: 300B0000
+22.9-170 0.012: phase: 1
+22.9-170 0.012: vendor: Oracle Corporation
+22.9-170 0.012: version: 11.0.2+7-LTS
+22.9-170 0.012: specVersion: 11
+22.9-170 0.012: info: mixed mode, aot, sharing
+22.9-170 0.012: heap_sampling: capability is available
+22.9-170 0.012: virtual_threads: capability is not available (isAttached=0, version=11.0.2+7-LTS)
+22.9-170 0.012: asynchronous sampling: unsupported on windows-x86-64
+22.9-170 0.020: inside Kubernetes: 0
+22.9-170 0.020: session GUID: KDsWpVpSWhzjq2w3ZmSb
+22.9-170 0.026: line_method: 1
+22.9-170 0.027: heap_sampling: will be used instead of BCI
+22.9-170 0.066: Reusing existing jar file: C:\Users\ASuS\AppData\Local\Temp\yjp202210271816.jar
+22.9-170 0.069: JVMTI 300B0000; 11.0.2+7-LTS; Oracle Corporation; mixed mode, aot, sharing; Java version: 11
+22.9-170 1.321: Successfully registered probes: 28
+  Registered: .AgentLoadingSupport
+  Registered: .AsyncChannels
+  Registered: .AwtEvents
+  Registered: .Cassandra
+  Registered: .CassandraLW
+  Registered: .Databases
+  Registered: .DatabasesLW
+  Registered: .DirectoryStreams
+  Registered: .Files
+  Registered: .FilesLW
+  Registered: .HBase
+  Registered: .HBaseLW
+  Registered: .JNDI
+  Registered: .JPA_DataNucleus
+  Registered: .JPA_EclipseLink
+  Registered: .JPA_Hibernate
+  Registered: .JPA_OpenJPA
+  Registered: .JUnitTests
+  Registered: .MongoDB
+  Registered: .MongoDBLW
+  Registered: .Processes
+  Registered: .Servlets
+  Registered: .ServletsLW
+  Registered: .Sockets
+  Registered: .SocketsLW
+  Registered: .Sync
+  Registered: .TestNg
+  Registered: .Threads
+22.9-170 2.453: agentStart: 1
+22.9-170 2.454: agentStart: 2
+22.9-170 2.456: agentStart: OK
+22.9-170 2.457: vmInit: 1
+22.9-170 2.478: vmInit: 2
+22.9-170 2.478: agentInit: 1
+22.9-170 2.478: agentInit: isAttached=0
+22.9-170 2.490: AddModuleExports returned 0:JVMTI_ERROR_NONE
+22.9-170 2.498: agentInit: Core loaded
+22.9-170 2.522: setTriggers:
+
+22.9-170 2.522: setTriggers: to unregister: 0
+22.9-170 2.523: setTriggers: method listeners to register: 0
+22.9-170 2.523: setTriggers: OK
+22.9-170 2.523: ourUnsafe: true
+22.9-170 2.637: agentInit: Core.init() called
+22.9-170 2.640: Retransform early class: java/io/FileInputStream
+22.9-170 2.642: [ssl-config] generating SSL certificate...
+22.9-170 2.642: [ssl-config] OpenSSL 3.0.5 5 Jul 2022
+22.9-170 2.649: Retransform early class: java/io/FileOutputStream
+22.9-170 2.661: Retransform early class: java/lang/Thread
+22.9-170 2.692: agentInit: OK
+22.9-170 2.692: vmInit: 3
+22.9-170 2.692: onStartProfiling: entering...
+22.9-170 2.692: onStartProfiling: will start CPU sampling...
+22.9-170 2.692: starting sampling: synchronous
+22.9-170 2.693: SamplingSettings: time=cpu sampling_period_ms=20 cpu_threshold_ms=10
+22.9-170 2.693: Events from Auto probes cleared:
+
+22.9-170 2.694: SamplingSettings: time=cpu sampling_period_ms=20 cpu_threshold_ms=10
+22.9-170 2.776: retransformProbes: loaded classes: 820 probeClassNames: 122
+22.9-170 2.783: Probe classes to retransform: 0
+22.9-170 2.784: CPU sampling started: time=cpu
+sampling_period_ms=20
+cpu_threshold_ms=10
+
+22.9-170 2.784: onStartProfiling: done
+22.9-170 2.784: vmInit: OK
+22.9-170 3.095: [ssl-config] generating SSL certificate done: ctx 4, key 440, serial 0, cert 6, sign 3, use 0
+22.9-170 3.096: [server] listening; port=10001; ip=127.0.0.1; url=https://127.0.0.1:10001
+22.9-170 3.096: [shmem] permissions: set_unrestricted
+22.9-170 3.096: [shmem] creating shared_memory_object
+22.9-170 3.098: [shmem] get_size
+22.9-170 3.098: [shmem] get size result=1, size=106500
+22.9-170 3.098: [shmem] creating mapped_region
+22.9-170 3.098: [shmem] mapped address=0000020AC51E0000, mapped size=106500, area size=106500
+22.9-170 3.156: Launching YourKit Java Profiler UI: C:\Program Files\YourKit Java Profiler 2022.9-b170\bin\profiler.exe
+22.9-170 4.786: tracing=off: large method: 2431 java.util.regex.CharPredicates forProperty(java.lang.String)
+22.9-170 5.033: tracing=off: large method: 6264 sun.text.resources.cldr.FormatData getContents()
+22.9-170 5.048: tracing=off: large method: 2222 sun.text.resources.cldr.FormatData_en getContents()
+22.9-170 6.797: GcPauseCounter: installed to G1 Young Generation
+22.9-170 6.798: GcPauseCounter: installed to G1 Old Generation
+22.9-170 6.813: GC bean name: [1] G1 Young Generation
+22.9-170 6.814: GC bean name: [2] G1 Old Generation
+22.9-170 6.815: processorCount=4
+22.9-170 7.900: [http] 127.0.0.1 GET "/yjp/ws/api/v1" - - upgrade
+22.9-170 10.032: warning: long telemetry sample: 121 ms (119/2)
+22.9-170 10.297: [m: 268 204] total classes: processed=1000 instrumented=869 1153ms
+22.9-170 12.188: warning: long telemetry sample: 124 ms (123/1)
+22.9-170 14.274: warning: long telemetry sample: 124 ms (25/99)
+22.9-170 16.794: warning: long telemetry sample: 465 ms (6/459)
+22.9-170 73.425: SP: pin java.lang.OutOfMemoryError
+22.9-170 73.489: warning: long telemetry sample: 44950 ms (44949/1)
+22.9-170 73.870: vmDeath: 1
+22.9-170 73.870: vmDeath: 2
+22.9-170 74.089: [server] stopped
+22.9-170 74.089: WebServer thread finished
+22.9-170 74.160: vmDeath: 3
+22.9-170 74.160: vmDeath: on-exit performance snapshot will be captured
+22.9-170 84.546: [m: 1979 1919] WSN: starting C:\Users\ASuS\Snapshots\JavaCup-2022-10-29-shutdown(1).snapshot
+22.9-170 84.674: [m: 1980 1920] WSN: tables written
+22.9-170 84.675: [m: 1979 1919] WSN: done
+22.9-170 84.677: Snapshot captured: C:\Users\ASuS\Snapshots\JavaCup-2022-10-29-shutdown(1).snapshot
+22.9-170 84.677: vmDeath: 4
+22.9-170 84.677: vmDeath: OK
