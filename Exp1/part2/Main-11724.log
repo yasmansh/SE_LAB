@@ -1,0 +1,120 @@
+22.9-170 0.001: Log file: C:\Users\samen\.yjp\log\Main-11724.log
+22.9-170 0.001: Command line:
+  C:\Program Files\Java\jdk-14.0.2\bin\java.exe
+  -agentpath:C:\ProgramData\YourKit\2022.9.170\windows-x86-64\B99A482A\yjpagent.dll=sampling,_ide_project_name=aze_narm,app_name=Main,profiler_dir=YJPQUOTED433a5c50726f6772616d2046696c65735c596f75724b6974204a6176612050726f66696c657220323032322e392d62313730,ideport=1157,onexit=snapshot
+  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.1\lib\idea_rt.jar=1618:C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.1\bin
+  -Dfile.encoding=UTF-8
+  -classpath
+  C:\Users\samen\Desktop\term9\aze_narm\out\production\aze_narm
+  com.company.Main
+22.9-170 0.002: Executable: C:\Program Files\Java\jdk-14.0.2\bin\java.exe
+22.9-170 0.002: Windows 10; version 10.0.19041; windows-x86-64; 64-bit process
+22.9-170 0.002: hid: 160225Y5Z0UX05X92YW127W980X1Y0529X 64-bit machine
+22.9-170 0.002: RAM: 7894 MB
+22.9-170 0.002: Today is 20221104
+22.9-170 0.002: full_build_stamp: 2022.9.170 202210271816
+22.9-170 0.002: Agent library path: C:\ProgramData\YourKit\2022.9.170\windows-x86-64\B99A482A\yjpagent.dll
+22.9-170 0.002: getTimeNsInfo: "PerformanceFrequency=10000000"
+22.9-170 0.002: Agent_OnLoad: orig_options=sampling,_ide_project_name=aze_narm,app_name=Main,profiler_dir=YJPQUOTED433a5c50726f6772616d2046696c65735c596f75724b6974204a6176612050726f66696c657220323032322e392d62313730,ideport=1157,onexit=snapshot
+  full_options=sampling,_ide_project_name=aze_narm,app_name=Main,profiler_dir=YJPQUOTED433a5c50726f6772616d2046696c65735c596f75724b6974204a6176612050726f66696c657220323032322e392d62313730,ideport=1157,onexit=snapshot
+22.9-170 0.002: y_setenv: _YJP_AGENT_LOADED=11724
+22.9-170 0.002: jvmtiVersion: 300E0000
+22.9-170 0.002: phase: 1
+22.9-170 0.002: vendor: Oracle Corporation
+22.9-170 0.002: version: 14.0.2+12-46
+22.9-170 0.002: specVersion: 14
+22.9-170 0.002: info: mixed mode, sharing
+22.9-170 0.002: heap_sampling: capability is available
+22.9-170 0.002: virtual_threads: capability is not available (isAttached=0, version=14.0.2+12-46)
+22.9-170 0.002: asynchronous sampling: unsupported on windows-x86-64
+22.9-170 0.004: inside Kubernetes: 0
+22.9-170 0.004: session GUID: vlNJGw2wBgdu20JSQc4h
+22.9-170 0.005: line_method: 1
+22.9-170 0.005: heap_sampling: will be used instead of BCI
+22.9-170 0.015: Reusing existing jar file: C:\Users\samen\AppData\Local\Temp\yjp202210271816.jar
+22.9-170 0.016: JVMTI 300E0000; 14.0.2+12-46; Oracle Corporation; mixed mode, sharing; Java version: 14
+22.9-170 0.237: Successfully registered probes: 28
+  Registered: .AgentLoadingSupport
+  Registered: .AsyncChannels
+  Registered: .AwtEvents
+  Registered: .Cassandra
+  Registered: .CassandraLW
+  Registered: .Databases
+  Registered: .DatabasesLW
+  Registered: .DirectoryStreams
+  Registered: .Files
+  Registered: .FilesLW
+  Registered: .HBase
+  Registered: .HBaseLW
+  Registered: .JNDI
+  Registered: .JPA_DataNucleus
+  Registered: .JPA_EclipseLink
+  Registered: .JPA_Hibernate
+  Registered: .JPA_OpenJPA
+  Registered: .JUnitTests
+  Registered: .MongoDB
+  Registered: .MongoDBLW
+  Registered: .Processes
+  Registered: .Servlets
+  Registered: .ServletsLW
+  Registered: .Sockets
+  Registered: .SocketsLW
+  Registered: .Sync
+  Registered: .TestNg
+  Registered: .Threads
+22.9-170 0.380: agentStart: 1
+22.9-170 0.380: agentStart: 2
+22.9-170 0.382: agentStart: OK
+22.9-170 0.382: vmInit: 1
+22.9-170 0.389: vmInit: 2
+22.9-170 0.389: agentInit: 1
+22.9-170 0.389: agentInit: isAttached=0
+22.9-170 0.391: AddModuleExports returned 0:JVMTI_ERROR_NONE
+22.9-170 0.395: agentInit: Core loaded
+22.9-170 0.401: setTriggers:
+
+22.9-170 0.401: setTriggers: to unregister: 0
+22.9-170 0.401: setTriggers: method listeners to register: 0
+22.9-170 0.401: setTriggers: OK
+22.9-170 0.402: ourUnsafe: true
+22.9-170 0.427: agentInit: Core.init() called
+22.9-170 0.428: Retransform early class: java/io/FileInputStream
+22.9-170 0.428: [ssl-config] generating SSL certificate...
+22.9-170 0.428: [ssl-config] OpenSSL 3.0.5 5 Jul 2022
+22.9-170 0.431: Retransform early class: java/io/FileOutputStream
+22.9-170 0.434: Retransform early class: java/lang/Thread
+22.9-170 0.440: agentInit: OK
+22.9-170 0.440: vmInit: 3
+22.9-170 0.440: onStartProfiling: entering...
+22.9-170 0.440: onStartProfiling: will start CPU sampling...
+22.9-170 0.441: starting sampling: synchronous
+22.9-170 0.441: SamplingSettings: time=cpu sampling_period_ms=20 cpu_threshold_ms=10
+22.9-170 0.441: Events from Auto probes cleared:
+
+22.9-170 0.441: SamplingSettings: time=cpu sampling_period_ms=20 cpu_threshold_ms=10
+22.9-170 0.472: retransformProbes: loaded classes: 810 probeClassNames: 122
+22.9-170 0.474: Probe classes to retransform: 0
+22.9-170 0.474: CPU sampling started: time=cpu
+sampling_period_ms=20
+cpu_threshold_ms=10
+
+22.9-170 0.475: onStartProfiling: done
+22.9-170 0.475: vmInit: OK
+22.9-170 0.532: [ssl-config] generating SSL certificate done: ctx 1, key 99, serial 0, cert 3, sign 1, use 0
+22.9-170 0.532: [server] listening; port=10001; ip=127.0.0.1; url=https://127.0.0.1:10001
+22.9-170 0.532: [shmem] permissions: set_unrestricted
+22.9-170 0.532: [shmem] creating shared_memory_object
+22.9-170 0.534: [shmem] get_size
+22.9-170 0.534: [shmem] get size result=1, size=106500
+22.9-170 0.534: [shmem] creating mapped_region
+22.9-170 0.534: [shmem] mapped address=000001E2B37F0000, mapped size=106500, area size=106500
+22.9-170 0.539: tracing=off: large method: 5009 sun.nio.cs.StandardCharsets$Aliases init(java.lang.Object[])
+22.9-170 0.546: Launching YourKit Java Profiler UI: C:\Program Files\YourKit Java Profiler 2022.9-b170\bin\profiler.exe
+22.9-170 1.229: tracing=off: large method: 20456 sun.util.resources.cldr.TimeZoneNames_en getContents()
+22.9-170 2.188: GcPauseCounter: installed to G1 Young Generation
+22.9-170 2.188: GcPauseCounter: installed to G1 Old Generation
+22.9-170 2.193: GC bean name: [1] G1 Young Generation
+22.9-170 2.193: GC bean name: [2] G1 Old Generation
+22.9-170 2.194: processorCount=8
+22.9-170 2.339: SP: pin java.lang.NoSuchFieldException
+22.9-170 2.421: [http] 127.0.0.1 GET "/yjp/ws/api/v1" - - upgrade
