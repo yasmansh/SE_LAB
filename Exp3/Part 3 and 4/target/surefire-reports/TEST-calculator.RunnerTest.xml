@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="32" failures="0" name="calculator.RunnerTest" time="0.025" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2018.3.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.2+7-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\term9\SE_LAB\Exp3\Part 3 and 4"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\term9\SE_LAB\Exp3\Part 3 and 4"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.2+7-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASuS\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1256"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\altera\12.1\quartus\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MongoDB;C:\Program Files\MongoDB\mongodb-database-tools-windows-x86_64-100.2.1\bin;D:\MATLAB_INS\runtime\win64;D:\MATLAB_INS\bin;D:\MATLAB_INS\polyspace\bin;D:\matlab_tdm\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\gnupg\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\gettext-iconv\bin;C:\Users\ASuS\anaconda3;C:\Users\ASuS\anaconda3\Library\mingw-w64\bin;C:\Users\ASuS\anaconda3\Library\usr\bin;C:\Users\ASuS\anaconda3\Library\bin;C:\Users\ASuS\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ASuS\AppData\Local\Microsoft\WindowsApps;E:\K555D\yasaman\clion\CLion 2018.3.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\bin;C:\Users\ASuS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASuS\Desktop\term 4\DSD\Modelsim.SE.10.5.x64\win64;C:\Users\ASuS\Desktop\term 4\DSD\modelSim\win64;C:\modeltech64_10.5\win64;C:\modeltech64_10.6d\win64;C:\Users\ASuS\AppData\Roaming\npm;C:\Users\ASuS\.dotnet\tools;C:\Users\ASuS\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;D:\West.Wind.Markdown.Monster.v2.0.9.0_p30download.com\Markdown Monster;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="C:\Users\ASuS\.m2\repository"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ASuS"/>
+    <property name="user.timezone" value="Asia/Tehran"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="ASuS"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.4 -Dmaven.repo.local=C:\Users\ASuS\.m2\repository test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: sqrt of division of two numbers" name="Given Two input values, 75 and 3" time="0.005"/>
+  <testcase classname="Scenario: sqrt of division of two numbers" name="When I calculate sqrt of the division of the a by the b" time="0"/>
+  <testcase classname="Scenario: sqrt of division of two numbers" name="Then I expect the result 5" time="0"/>
+  <testcase classname="Scenario: sqrt of division of two numbers" name="Scenario: sqrt of division of two numbers" time="0.001"/>
+  <testcase classname="| 4 | 1 | 2 |" name="Given Two input values, 4 and 1" time="0.001"/>
+  <testcase classname="| 4 | 1 | 2 |" name="When I calculate sqrt of the division of the a by the b" time="0"/>
+  <testcase classname="| 4 | 1 | 2 |" name="Then I expect the result 2" time="0"/>
+  <testcase classname="| 4 | 1 | 2 |" name="| 4 | 1 | 2 |" time="0"/>
+  <testcase classname="| 36 | 4 | 3 |" name="Given Two input values, 36 and 4" time="0"/>
+  <testcase classname="| 36 | 4 | 3 |" name="When I calculate sqrt of the division of the a by the b" time="0"/>
+  <testcase classname="| 36 | 4 | 3 |" name="Then I expect the result 3" time="0"/>
+  <testcase classname="| 36 | 4 | 3 |" name="| 36 | 4 | 3 |" time="0.001"/>
+  <testcase classname="| 0 | 1 | 0 |" name="Given Two input values, 0 and 1" time="0"/>
+  <testcase classname="| 0 | 1 | 0 |" name="When I calculate sqrt of the division of the a by the b" time="0"/>
+  <testcase classname="| 0 | 1 | 0 |" name="Then I expect the result 0" time="0"/>
+  <testcase classname="| 0 | 1 | 0 |" name="| 0 | 1 | 0 |" time="0.001"/>
+  <testcase classname="| 0 | 0 | -1 |" name="Given Two input values, 0 and 0" time="0"/>
+  <testcase classname="| 0 | 0 | -1 |" name="When I calculate sqrt of the division of the a by the b" time="0"/>
+  <testcase classname="| 0 | 0 | -1 |" name="Then I expect the result -1" time="0.001"/>
+  <testcase classname="| 0 | 0 | -1 |" name="| 0 | 0 | -1 |" time="0.001"/>
+  <testcase classname="| 75 | 3 | 5 |" name="Given Two input values, 75 and 3" time="0.001"/>
+  <testcase classname="| 75 | 3 | 5 |" name="When I calculate sqrt of the division of the a by the b" time="0.005"/>
+  <testcase classname="| 75 | 3 | 5 |" name="Then I expect the result 5" time="0"/>
+  <testcase classname="| 75 | 3 | 5 |" name="| 75 | 3 | 5 |" time="0.001"/>
+  <testcase classname="| -25 | -1 | 5 |" name="Given Two input values, -25 and -1" time="0"/>
+  <testcase classname="| -25 | -1 | 5 |" name="When I calculate sqrt of the division of the a by the b" time="0"/>
+  <testcase classname="| -25 | -1 | 5 |" name="Then I expect the result 5" time="0"/>
+  <testcase classname="| -25 | -1 | 5 |" name="| -25 | -1 | 5 |" time="0.001"/>
+  <testcase classname="| -162 | -2 | 9 |" name="Given Two input values, -162 and -2" time="0.001"/>
+  <testcase classname="| -162 | -2 | 9 |" name="When I calculate sqrt of the division of the a by the b" time="0"/>
+  <testcase classname="| -162 | -2 | 9 |" name="Then I expect the result 9" time="0.001"/>
+  <testcase classname="| -162 | -2 | 9 |" name="| -162 | -2 | 9 |" time="0.004"/>
+</testsuite>
