@@ -50,7 +50,7 @@
 
 حال زمان ران کردن تست ها می رسد.
 
-![abstract_Design_Pattern_UML](https://raw.githubusercontent.com/yasmansh/SE_LAB/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture12.jpg?token=GHSAT0AAAAAAB2RRMG3W3GVMTOAFVQ3U5ESY4TQQLQ)
+![8](https://user-images.githubusercontent.com/45336465/206774750-213d44ba-fa0c-4af6-854f-cbbb41d85517.png)
 
  
  ### پیاده سازی الگوی طراحی Prototype: 
