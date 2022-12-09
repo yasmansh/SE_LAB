@@ -12,7 +12,7 @@
   
 ### پیاده سازی الگوی طراحی Abstract factory:
 ابتدا تست را طراحی می کنیم.
-![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture11.JPG)
+![abstract_Design_Pattern_UML](https://raw.githubusercontent.com/yasmansh/SE_LAB/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture11.jpg?token=GHSAT0AAAAAAB2RRMG3RBD7WJUG6YTESAQ2Y4TQPYQ)
 
 حال زمان کد زدن است. ایتدا دو نوع Garden تعریف می کنیم. یکی درخت و دیگری گل
 
@@ -50,7 +50,7 @@
 
 حال زمان ران کردن تست ها می رسد.
 
-![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture12.JPG)
+![abstract_Design_Pattern_UML](https://raw.githubusercontent.com/yasmansh/SE_LAB/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture12.jpg?token=GHSAT0AAAAAAB2RRMG3W3GVMTOAFVQ3U5ESY4TQQLQ)
 
  
  ### پیاده سازی الگوی طراحی Prototype: 
@@ -58,7 +58,7 @@
  مساله به این شکل است که در کلاسی دو نوع دانش آموز داریم: ایرانی و ژاپنی و حال قرار است با طراحی Prototype این سوال را حل کنیم.
  ابتدا تست را طراحی می کنیم.
  
- ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture05.JPG)
+ ![Prototype_Pattern_UML](https://raw.githubusercontent.com/yasmansh/SE_LAB/main/Exp5/Part2%20-%20Prototype/Pics/Capture05.jpg?token=GHSAT0AAAAAAB2RRMG3OS35BB5VVY6A2NZ4Y4TQODQ)
  
  ابتدا کلاس دانش آموز را ایجاد می کنیم و برای دنبال کردن pattern کلاس clonnable را implement می کنیم.
  
@@ -76,7 +76,7 @@
  
  حال زمان تست کردن است.
  
- ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture06.JPG)
+ ![Prototype_Pattern_UML](https://raw.githubusercontent.com/yasmansh/SE_LAB/main/Exp5/Part2%20-%20Prototype/Pics/Capture06.jpg?token=GHSAT0AAAAAAB2RRMG3WANVAA2AWEXRKXWGY4TQO3Q)
  
 
   ### پیاده‌سازی الگوی طراحی Builder:
