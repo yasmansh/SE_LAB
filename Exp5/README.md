@@ -12,41 +12,45 @@
   
 ### پیاده سازی الگوی طراحی Abstract factory:
 ابتدا تست را طراحی می کنیم.
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture02.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture11.JPG)
 
 حال زمان کد زدن است. ایتدا دو نوع Garden تعریف می کنیم. یکی درخت و دیگری گل
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture03.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture03.JPG)
 
 سپس دو نوع مکان یکی ایرانی و دیگری ژاپنی را تعریف می کنیم.
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture04.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture04.JPG)
 
 حال کد باغچه را می زنیم که مکان و نوع باغچه را می گیرد و همچنین برای آن set و get تعریف می کنیم.
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture08.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture08.JPG)
 
 سپس کلاس Flower و Tree را می سازیم که از Garden ارث‌بری می کند.
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture09.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture09.JPG)
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture10.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture10.JPG)
 
 سپس کد مربوط به ساخت باغچه ژاپنی را می زنیم که بر اساس نوع باغچه که گل است یا درخت یک گل یا درخت ژاپنی می سازد.
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture05.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture05.JPG)
 
 به طریق مشابه باغچه ایرانی را هم می سازیم.
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture06.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture06.JPG)
 
 سپس کد اصلی GardenCreator را می زنیم که بر اساس این که باغچه ایرانی است یا ژاپنی تابع مربوطه را صدا می کند.
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture07.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture07.JPG)
 
 در آخر کد را کامپایل می کنیم و می بینیم یک مشکل دسترسی داریم که به خاطر پابلیک نبودن کد ما است.
 
-![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture01.JPG)
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture01.JPG)
+
+حال زمان ران کردن تست ها می رسد.
+
+![abstract_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture12.JPG)
 
  
  ### پیاده سازی الگوی طراحی Prototype: 
@@ -54,7 +58,7 @@
  مساله به این شکل است که در کلاسی دو نوع دانش آموز داریم: ایرانی و ژاپنی و حال قرار است با طراحی Prototype این سوال را حل کنیم.
  ابتدا تست را طراحی می کنیم.
  
- ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture01.JPG)
+ ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture05.JPG)
  
  ابتدا کلاس دانش آموز را ایجاد می کنیم و برای دنبال کردن pattern کلاس clonnable را implement می کنیم.
  
@@ -70,6 +74,9 @@
  
  همچنین این کد به مشکلی نخورد پس نیازی به تغییر آن نبود.
  
+ حال زمان تست کردن است.
+ 
+ ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture06.JPG)
  
 
   ### پیاده‌سازی الگوی طراحی Builder:
