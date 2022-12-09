@@ -9,6 +9,45 @@
  
  
 ## گزارش
+  
+### پیاده سازی الگوریتم Abstract factory:
+ابتدا تست را طراحی می کنیم.
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture02.JPG)
+
+حال زمان کد زدن است. ایتدا دو نوع Garden تعریف می کنیم. یکی درخت و دیگری گل
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture03.JPG)
+
+سپس دو نوع مکان یکی ایرانی و دیگری ژاپنی را تعریف می کنیم.
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture04.JPG)
+
+حال کد باغچه را می زنیم که مکان و نوع باغچه را می گیرد و همچنین برای آن set و get تعریف می کنیم.
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture08.JPG)
+
+سپس کلاس Flower و Tree را می سازیم که از Garden ارث بری می کند.
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture09.JPG)
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture10.JPG)
+
+حال کد ساخت باغچه ژاپنی را می زنیم که بر اساس نوع باغچه که گل است یا درخت یک گل یا درخت ژاپنی می سازد.
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture05.JPG)
+
+به طریق مشابه باغچه ایرانی را هم می سازیم.
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture06.JPG)
+
+حال کد اصلی GardenCreator را می زنیم که بر اساس این که باغچه ایرانی است یا ژاپنی تابع مربوطه را صدا می کند.
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture07.JPG)
+
+حال کد را کامپایل می کنیم و می بینیم یک مشکل دسترسی داریم که به خاطر پابلیک نبودن کد ما است.
+
+![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture01.JPG)
+
 
   ### پیاده‌سازی الگوی Builder:
 الگوی طراحی Builder، در مواقعی که attribute های زیاد و شی پیچیده‌ای داریم  کاربرد دارد.
