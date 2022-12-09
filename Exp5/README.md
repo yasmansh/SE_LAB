@@ -10,7 +10,7 @@
  
 ## گزارش
   
-### پیاده سازی الگوریتم Abstract factory:
+### پیاده سازی الگوی طراحی Abstract factory:
 ابتدا تست را طراحی می کنیم.
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture02.JPG)
 
@@ -26,13 +26,13 @@
 
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture08.JPG)
 
-سپس کلاس Flower و Tree را می سازیم که از Garden ارث بری می کند.
+سپس کلاس Flower و Tree را می سازیم که از Garden ارث‌بری می کند.
 
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture09.JPG)
 
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture10.JPG)
 
-حال کد ساخت باغچه ژاپنی را می زنیم که بر اساس نوع باغچه که گل است یا درخت یک گل یا درخت ژاپنی می سازد.
+سپس کد مربوط به ساخت باغچه ژاپنی را می زنیم که بر اساس نوع باغچه که گل است یا درخت یک گل یا درخت ژاپنی می سازد.
 
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture05.JPG)
 
@@ -40,16 +40,16 @@
 
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture06.JPG)
 
-حال کد اصلی GardenCreator را می زنیم که بر اساس این که باغچه ایرانی است یا ژاپنی تابع مربوطه را صدا می کند.
+سپس کد اصلی GardenCreator را می زنیم که بر اساس این که باغچه ایرانی است یا ژاپنی تابع مربوطه را صدا می کند.
 
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture07.JPG)
 
-حال کد را کامپایل می کنیم و می بینیم یک مشکل دسترسی داریم که به خاطر پابلیک نبودن کد ما است.
+در آخر کد را کامپایل می کنیم و می بینیم یک مشکل دسترسی داریم که به خاطر پابلیک نبودن کد ما است.
 
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture01.JPG)
 
  
- ### پیاده سازی الگوریتم Prototype: 
+ ### پیاده سازی الگوی طراحی Prototype: 
  
  مساله به این شکل است که در کلاسی دو نوع دانش آموز داریم: ایرانی و ژاپنی و حال قرار است با طراحی Prototype این سوال را حل کنیم.
  ابتدا تست را طراحی می کنیم.
@@ -72,7 +72,7 @@
  
  
 
-  ### پیاده‌سازی الگوی Builder:
+  ### پیاده‌سازی الگوی طراحی Builder:
 الگوی طراحی Builder، در مواقعی که attribute های زیاد و شی پیچیده‌ای داریم  کاربرد دارد.
 یدر این الگو، یک  اینترفیس Builder داریم و تعدادی ConcreateBuilder که آن اینترفیس را پیاده سازی میکنند و هرکدام مسئول ساخت یک نوع product میباشد. همچنین یک Director داریم که دارای builder بوده و از متدهای آن برای ساخت محصولات استفاده میکند. فراخوانی متدهای builder و ترتیب آن در اختیار director میباشد.
 ![2](https://user-images.githubusercontent.com/45336465/206543652-8f7c7b14-ac8a-4ed4-8731-1c131349a950.png)
@@ -130,3 +130,5 @@
   مسیله اول اینکه اطمینان حاصل کنیم که یک کلاس فقط یک نمونه دارد.  و مسیله دوم اینکه یک global access point به آن نمونه داشته باشیم. درواقع الگوی Singleton به شما امکان می دهد از هر کجای برنامه به برخی از شی ها دسترسی داشته باشید. با این حال، آن نمونه را از بازنویسی شدن توسط کدهای دیگر نیز محافظت می کند.
   
   درنتیجه الگوی طراحی Singleton اصل مسئولیت واحد را نقض می کند زیرا اشیاء نحوه ایجاد و مدیریت life-cycle خود را کنترل می کنند. و این به وضوح با اصل مسئولیت واحد که می گوید یک کلاس باید یک و تنها یک دلیل برای تغییر داشته باشد در تضاد است.
+ 
+ از طرف دیگر شاید بتوان گفت این الگو، اصل Open-Closed را نیز نقض میکند. زیرا در این الگوی طراحی، کلاس بر ایجاد نمونه کنترل دارد، در حالی که کاربران فقط به یک نمونه concreate از کلاس دسترسی دارند. و درنتیجه تغییر در آن بدون ایجاد تغییرات گسترده در سراسر برنامه غیرممکن است و کلاس editable میباشد که مخالف با اصل بیان شده است.
