@@ -48,6 +48,29 @@
 
 ![Builder_Design_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part1%20-%20Abstract%20Factory/Pics/Capture01.JPG)
 
+ 
+ ### پیاده سازی الگوریتم Prototype: 
+ 
+ مساله به این شکل است که در کلاسی دو نوع دانش آموز داریم: ایرانی و ژاپنی و حال قرار است با طراحی Prototype این سوال را حل کنیم.
+ ابتدا تست را طراحی می کنیم.
+ 
+ ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture01.JPG)
+ 
+ ابتدا کلاس دانش آموز را ایجاد می کنیم و برای دنبال کردن pattern کلاس clonnable را implement می کنیم.
+ 
+ ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture02.JPG)
+ 
+ در این بخش دانش آموز ژاپنی را تعریف می کنیم و در آن nationality را به ژاپنی تغییر می دهیم.
+ 
+ ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture03.JPG)
+ 
+ به طریق مشابه دانش آموز ایرانی را تعریف می کنیم.
+ 
+ ![Prototype_Pattern_UML](https://github.com/yasmansh/SE_LAB/blob/main/Exp5/Part2%20-%20Prototype/Pics/Capture04.JPG)
+ 
+ همچنین این کد به مشکلی نخورد پس نیازی به تغییر آن نبود.
+ 
+ 
 
   ### پیاده‌سازی الگوی Builder:
 الگوی طراحی Builder، در مواقعی که attribute های زیاد و شی پیچیده‌ای داریم  کاربرد دارد.
