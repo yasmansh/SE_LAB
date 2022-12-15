@@ -1,0 +1,16 @@
+com\unittest\codecoverage\models\TrafficLigth.class
+com\unittest\codecoverage\models\Footpassenger.class
+com\unittest\codecoverage\models\Traffic.class
+com\unittest\codecoverage\services\CrudService.class
+com\unittest\codecoverage\exceptions\PersonException.class
+com\unittest\codecoverage\services\impl\PersonServiceImpl.class
+com\unittest\codecoverage\services\PersonService.class
+com\unittest\codecoverage\repositories\PersonRepository.class
+com\unittest\codecoverage\models\validators\PersonValidator.class
+com\unittest\codecoverage\models\Gender.class
+com\unittest\codecoverage\services\TrafficBehaviorService.class
+com\unittest\codecoverage\services\impl\TrafficBehaviorServiceImpl.class
+com\unittest\codecoverage\exceptions\BehaviorException.class
+com\unittest\codecoverage\CodecoverageApplication.class
+com\unittest\codecoverage\models\StreetDirectionFlow.class
+com\unittest\codecoverage\models\Person.class

@@ -1,0 +1,8 @@
+com\unittest\codecoverage\samples\MyCustomList.class
+com\unittest\codecoverage\samples\SpySampleTest.class
+com\unittest\codecoverage\CodecoverageApplicationTests.class
+com\unittest\codecoverage\samples\AssertionsSampleTest.class
+com\unittest\codecoverage\samples\CaptorSampleTest.class
+com\unittest\codecoverage\samples\MockSampleTest.class
+com\unittest\codecoverage\service\TrafficBehaviorServiceTest.class
+com\unittest\codecoverage\service\PersonServiceTest.class
